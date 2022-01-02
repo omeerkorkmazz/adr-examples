@@ -11,11 +11,6 @@ Contents:
   * [Positions](#positions)
   * [Argument](#argument)
   * [Implications](#implications)
-* [Related](#related)
-  * [Related decisions](#related-decisions)
-  * [Related requirements](#related-requirements)
-  * [Related artifacts](#related-artifacts)
-  * [Related principles](#related-principles)
 * [Notes](#notes)
 
 
@@ -100,7 +95,7 @@ For KrakenD, Back-end developers will need to learn GoLang. This is likely an ea
 
 KrakenD is relatively new when compared to Ocelot. However, they have detailed documentation. Adaption of KrakenD will be easy.
 
-The performance benchmark of KrakenD and Ocelotshows that KrakenD is better than Ocelot. In addition, we developed POCs for both KrakenD and Ocelot. The results again demonstrate that KrakenD has a greater performance than Ocelot.
+The performance benchmark of KrakenD and Ocelot shows that KrakenD is better than Ocelot. In addition, we developed POCs for both KrakenD and Ocelot. The results again demonstrate that KrakenD has a greater performance than Ocelot.
 
 
 ## Notes
