@@ -11,7 +11,7 @@ Contents:
   * [Positions](#positions)
   * [Argument](#argument)
   * [Implications](#implications)
-* [Notes](#notes)
+* [Consequences](#consequences)
 
 
 ## Summary
@@ -21,7 +21,7 @@ Contents:
 
 As a technology team of Company X, we develop and manage business workflows with a monolith project. Since our team grows rapidly and the domain starts to be more complicated, we would like to migrate our systems to the microservices by seperating the domain.
 
-As a first step, we should choose an open-source API Gateway because of technical requirements such as Authentication, Authorization. We have two major needs;
+As a first step, we need to choose an open-source API Gateway because of technical requirements such as Authentication, Authorization. We have two major needs;
 
 * The language of source code suitable for our development team in terms of know-how
 * Open-source options.
@@ -39,7 +39,7 @@ We decided to use **KrakenD** as API Gateway. Our motivations are as follows;
 
 ### Status
 
-Accepted on 2 Jan. 2022. We are open to new alternatives as they arise.
+ACCEPTED on 2 Jan. 2022. We are open to new alternatives as they arise.
 
 
 ## Details
@@ -75,7 +75,7 @@ Summary per API Gateway:
 
   * Kong: rejected. a bit complex, written by Lua, pricing for more features, harder to manage than KrakenD and Ocelot.
 
-  * Ocelot: rejected. written by C#, great community, easier to use with .NET services.
+  * Ocelot: rejected. written by C#, great community, easier to use with .NET services, environment dependency.
   
   * Tyk: rejected. enterprise-ready open-source API gateway, AWS marketplace, pricing for cloud, GoLang support. 
 
@@ -98,6 +98,8 @@ KrakenD is relatively new when compared to Ocelot. However, they have detailed d
 The performance benchmark of KrakenD and Ocelot shows that KrakenD is better than Ocelot. In addition, we developed POCs for both KrakenD and Ocelot. The results again demonstrate that KrakenD has a greater performance than Ocelot.
 
 
-## Notes
+## Consequences
 
-Any notes here.
+* Ready-to-use plugins written by GoLang can easily be used by KrakenD.
+* The technology team can quickly adapt KrakenD and develop new features.
+* Handling problem of uncertain exceptions.
