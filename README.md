@@ -1,2 +1,7 @@
 # Architecture Decision Record Examples
-Examples from Real Problems for Architecture Decision Records
+
+This repository contains likely real scenarios to explain how to document the architecture decision and how to structure your architecture decision records.
+
+## Examples
+
+* [API Gateway](examples/adr-api-gateway.md)
